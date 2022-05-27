@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <title>BookPick</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <script src="https://kit.fontawesome.com/a584127b81.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <div class="img-div">
+    <img src="images/book_back_1.jpg" width= 50% height="600">
+    <img src="images/Book_back_2.jpg" width= 50% height="600">
+    <div class="main-text">Make your own book choice</div>
+  </div>
+
+  <section class="bg-primary">
+      <div class="row"></div>
+        <h3 align="center">NLP фильтры</h3>
+          <div class="block">
+              <div class="select-wrap">
+                <select name="" class="dws-menu">
+                  <option value="">Сентимент анализ</option>
+                  <option value="">положительная оценка</option>
+                  <option value="">нейтральная оценка</option>
+                  <option value="">негативная оценка</option>
+                </select>
+            <form method="get" action="http://localhost:5000/api/book?sentimentId=2"><button type="submit" class="c-button">Найти</button></form>
+              </div>
+        </div>
+        <div class="block">
+            <div class="select-wrap">
+              <select class="dws-menu">
+                <option value="">Цвет</option>
+                <option value="">Красный</option>
+                <option value="">Черный</option>
+                <option value="">Желтый</option>
+                <option value="">Зеленый</option>
+                <option value="">Серый</option>
+                <option value="">Синий</option>
+                <option value="">Белый</option>
+              </select>
+            </div>
+            <form method="get" action="http://localhost:5000/api/book?colourId=3"><button type="submit" class="c-button">Найти</button></form>
+          </div>
+    <div class="block">
+            <div class="select-wrap">
+              <select class="dws-menu">
+                <option value="">Погода</option>
+                <option value="">ясно</option>
+                <option value="">пасмурно</option>
+                <option value="">дождь</option>
+                <option value="">снег</option>
+              </select>
+            </div>
+              <form method="get" action="http://localhost:5000/api/book?weatherId=1"><button type="submit" class="c-button" >Найти</button></form>
+          </div>
+  </section>
+
+  <section class="sections ftco-services">
+    <div class="services" align="center">
+        <div class="icon">
+          <span class="fas fa-comment-medical"></span>
+        </div>
+        <div class="media-body">
+          <h3 class="heading">Сентимент анализ</h3>
+          <p>Выявление в текстах эмоционально окрашенной лексики, а также эмоциональной оценки мнений, высказанных авторами</p>
+        </div>
+    </div>
+
+      <div class="services" align="center">
+        <div class="icon">
+          <span class="fas fa-file-signature"></span>
+        </div>
+        <div class="media-body">
+          <h3 class="heading">NER</h3>
+          <p>Распознование именнованных сущностей помогает нам понять преобладающий цвет или погоду в книге</p>
+        </div>
+      </div>
+
+      <div class="services" align="center">
+        <div class="icon">
+          <span class="fab fa-mixcloud"></span>
+        </div>
+        <div class="media-body">
+          <h3 class="heading">Облако слов</h3>
+          <p>Облако слов показывает наиболее часто встречающиеся слова в книге</p>
+        </div>
+      </div>
+
+      <div class="services" align="center">
+        <div class="icon">
+          <span class="fas fa-language"></span>
+        </div>
+        <div class="media-body">
+          <h3 class="heading">NLP</h3>
+          <p> Обработка текстов на естественном языке с помощью языков программирования</p>
+        </div>
+      </div>
+  </section>
+
+  <section class="sections img"  style="background-image: url(images/books2.jpg); width: 100%">
+    <div class="block">
+      <div class="some-text">
+        <span>10 Книг</span>
+      </div>
+    </div>
+
+    <div class="block">
+      <div class="some-text">
+        <span>1 Библиотека</span>
+      </div>
+    </div>
+
+    <div class="block">
+      <div class="some-text">
+        <span>6 Фильтров</span>
+      </div>
+    </div>
+
+    <div class="block">
+      <div class="some-text">
+        <span>5 Пользователей</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="sections">
+    <div class="row no-gutters">
+      <div class="col-md-1">
+        <div class="cover img" style="background-image: url(images/us.jpg);"></div>
+      </div>
+      <div class="col-md-1">
+        <div class="cover img" style="background-image: url(images/prestyplenie_i_nakazanie.jpg);"></div>
+      </div>
+      <div class="col-md-1">
+        <div class="cover img" style="background-image: url(images/geroy_nashego_vremeni.jpg);"></div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md">
+          <div class="footer-widget">
+            <h2>О нас</h2>
+            <p>Группа студентов ИТМО, которая хочет сделать мир чуточку лучше</p>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="footer-widget">
+            <h2>Quick Links</h2>
+            <ul>
+              <li><a href="#">Главная</a></li>
+              <li><a href="About us.html">О проекте</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="footer-widget">
+            <h2>Have a Questions?</h2>
+              <ul>
+                <li><a href="https://dh.itmo.ru/"><span class="text">DH-center, ITMO University, Saint-Petersburg, Russia</span></a></li>
+                <li><span class="text">+7 964 322 21 62</span></li>
+                <li><span class="text">daria_loza24@mail.ru</span></li>
+              </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
